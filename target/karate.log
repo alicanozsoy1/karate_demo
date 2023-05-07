@@ -1,0 +1,121 @@
+19:55:05.660 [main] INFO  io.gatling.compiler.ZincCompiler$ - compiling 1 Scala source and 3 Java sources to C:\Users\alica\OneDrive\Masaüstü\javaProjects\karate_ekim2022\target\test-classes ...
+19:55:19.239 [main] INFO  io.gatling.compiler.ZincCompiler$ - done compiling
+19:55:22.104 [main] INFO  i.g.c.config.GatlingConfiguration$ - Gatling will try to load 'gatling.conf' config file as ClassLoader resource.
+19:55:23.012 [GatlingSystem-akka.actor.default-dispatcher-4] INFO  akka.event.slf4j.Slf4jLogger - Slf4jLogger started
+19:55:25.020 [GatlingSystem-akka.actor.default-dispatcher-4] INFO  i.g.c.stats.writer.ConsoleDataWriter - Initializing
+19:55:25.024 [GatlingSystem-akka.actor.default-dispatcher-6] INFO  i.g.c.stats.writer.LogFileDataWriter - Initializing
+19:55:25.123 [GatlingSystem-akka.actor.default-dispatcher-6] INFO  i.g.c.stats.writer.LogFileDataWriter - Initialized
+19:55:25.124 [GatlingSystem-akka.actor.default-dispatcher-4] INFO  i.g.c.stats.writer.ConsoleDataWriter - Initialized
+19:55:28.132 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  c.intuit.karate.core.FeatureRuntime - classpath:features/performanceFeatures/createArticle.feature - call by tag at line 15: @load
+19:55:28.132 [GatlingSystem-akka.actor.default-dispatcher-6] INFO  c.intuit.karate.core.FeatureRuntime - classpath:features/performanceFeatures/createArticle.feature - call by tag at line 15: @load
+19:55:28.132 [GatlingSystem-akka.actor.default-dispatcher-5] INFO  c.intuit.karate.core.FeatureRuntime - classpath:features/performanceFeatures/createArticle.feature - call by tag at line 15: @load
+19:55:28.182 [GatlingSystem-akka.actor.default-dispatcher-8] INFO  i.g.core.controller.inject.Injector - Scenario Create an Article has finished injecting
+19:55:28.183 [GatlingSystem-akka.actor.default-dispatcher-8] INFO  i.g.core.controller.inject.Injector - Injecting is done
+19:55:28.303 [GatlingSystem-akka.actor.default-dispatcher-8] INFO  c.intuit.karate.core.FeatureRuntime - classpath:features/performanceFeatures/createArticle.feature - call by tag at line 15: @load
+19:55:29.174 [GatlingSystem-akka.actor.default-dispatcher-9] INFO  c.intuit.karate.core.FeatureRuntime - classpath:features/performanceFeatures/createArticle.feature - call by tag at line 15: @load
+19:55:31.992 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  com.intuit.karate - karate.env system property was: null 
+19:55:32.035 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  com.intuit.karate - >> lock acquired, begin callSingle: classpath:features/conduit/postRequest5.feature@login
+19:55:32.167 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  c.intuit.karate.core.FeatureRuntime - classpath:features/conduit/postRequest5.feature - call by tag at line 8: login
+19:55:34.466 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  com.intuit.karate - [print] TOKEN:  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IiMoZW1haWwpIiwidXNlcm5hbWUiOiIjKHVzZXJuYW1lKSIsImlhdCI6MTY4MzM5MjEzNSwiZXhwIjoxNjg4NTc2MTM1fQ.CtMUqgmQUa_vEvT07JSIqm44OXr1KVfMCk5O7dKR090 
+19:55:34.483 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  com.intuit.karate - << lock released, cached callSingle: classpath:features/conduit/postRequest5.feature@login
+19:55:34.536 [GatlingSystem-akka.actor.default-dispatcher-5] INFO  com.intuit.karate - karate.env system property was: null 
+19:55:34.582 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('classpath:callers/conduit/token.feature@login') {"email":#(userEmail),"password":#(userPassword)}
+19:55:34.584 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  c.intuit.karate.core.FeatureRuntime - classpath:callers/conduit/token.feature - call by tag at line 4: login
+19:55:34.591 [GatlingSystem-akka.actor.default-dispatcher-8] INFO  com.intuit.karate - karate.env system property was: null 
+19:55:34.669 [GatlingSystem-akka.actor.default-dispatcher-6] INFO  com.intuit.karate - karate.env system property was: null 
+19:55:34.723 [GatlingSystem-akka.actor.default-dispatcher-9] INFO  com.intuit.karate - karate.env system property was: null 
+19:55:35.103 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  com.intuit.karate - [print] TOKEN:  eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRkZW1haWx0ZXN0ZGF0YUBnbWFpbC5jb20iLCJ1c2VybmFtZSI6IkthcmF0ZSBUZXN0IiwiaWF0IjoxNjgzMzkyMTM1LCJleHAiOjE2ODg1NzYxMzV9.0A-J5RGO2HyvN_AAUjdBrU917jc7Gz6pp_GhzWUurFc 
+19:55:35.106 [GatlingSystem-akka.actor.default-dispatcher-7] INFO  com.intuit.karate - << lock released, cached callonce: read('classpath:callers/conduit/token.feature@login') {"email":#(userEmail),"password":#(userPassword)}
+19:55:35.107 [GatlingSystem-akka.actor.default-dispatcher-8] WARN  com.intuit.karate - this thread waited 281 milliseconds for callonce lock: read('classpath:callers/conduit/token.feature@login') {"email":#(userEmail),"password":#(userPassword)}
+19:55:35.109 [GatlingSystem-akka.actor.default-dispatcher-6] WARN  com.intuit.karate - this thread waited 298 milliseconds for callonce lock: read('classpath:callers/conduit/token.feature@login') {"email":#(userEmail),"password":#(userPassword)}
+19:55:35.110 [GatlingSystem-akka.actor.default-dispatcher-5] WARN  com.intuit.karate - this thread waited 312 milliseconds for callonce lock: read('classpath:callers/conduit/token.feature@login') {"email":#(userEmail),"password":#(userPassword)}
+19:55:35.113 [GatlingSystem-akka.actor.default-dispatcher-9] WARN  com.intuit.karate - this thread waited 346 milliseconds for callonce lock: read('classpath:callers/conduit/token.feature@login') {"email":#(userEmail),"password":#(userPassword)}
+19:55:35.134 [GatlingSystem-akka.actor.default-dispatcher-6] ERROR com.intuit.karate - classpath:features/performanceFeatures/createArticle.feature:9
+* def requestJson = read('classpath:datas/conduit/createArticleRequest.json')
+js failed:
+>>>>
+01: read('classpath:datas/conduit/createArticleRequest.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: datas/conduit/createArticleRequest.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:126)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:129)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:120)
+- <js>.:program(Unnamed:1)
+
+classpath:features/performanceFeatures/createArticle.feature:9
+19:55:35.134 [GatlingSystem-akka.actor.default-dispatcher-7] ERROR com.intuit.karate - classpath:features/performanceFeatures/createArticle.feature:9
+* def requestJson = read('classpath:datas/conduit/createArticleRequest.json')
+js failed:
+>>>>
+01: read('classpath:datas/conduit/createArticleRequest.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: datas/conduit/createArticleRequest.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:126)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:129)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:120)
+- <js>.:program(Unnamed:1)
+
+classpath:features/performanceFeatures/createArticle.feature:9
+19:55:35.134 [GatlingSystem-akka.actor.default-dispatcher-9] ERROR com.intuit.karate - classpath:features/performanceFeatures/createArticle.feature:9
+* def requestJson = read('classpath:datas/conduit/createArticleRequest.json')
+js failed:
+>>>>
+01: read('classpath:datas/conduit/createArticleRequest.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: datas/conduit/createArticleRequest.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:126)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:129)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:120)
+- <js>.:program(Unnamed:1)
+
+classpath:features/performanceFeatures/createArticle.feature:9
+19:55:35.140 [GatlingSystem-akka.actor.default-dispatcher-5] ERROR com.intuit.karate - classpath:features/performanceFeatures/createArticle.feature:9
+* def requestJson = read('classpath:datas/conduit/createArticleRequest.json')
+js failed:
+>>>>
+01: read('classpath:datas/conduit/createArticleRequest.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: datas/conduit/createArticleRequest.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:126)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:129)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:120)
+- <js>.:program(Unnamed:1)
+
+classpath:features/performanceFeatures/createArticle.feature:9
+19:55:35.142 [GatlingSystem-akka.actor.default-dispatcher-8] ERROR com.intuit.karate - classpath:features/performanceFeatures/createArticle.feature:9
+* def requestJson = read('classpath:datas/conduit/createArticleRequest.json')
+js failed:
+>>>>
+01: read('classpath:datas/conduit/createArticleRequest.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: datas/conduit/createArticleRequest.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:126)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:129)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:54)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:120)
+- <js>.:program(Unnamed:1)
+
+classpath:features/performanceFeatures/createArticle.feature:9
+19:55:35.150 [GatlingSystem-akka.actor.default-dispatcher-9] INFO  i.g.core.controller.inject.Injector - All users of scenario Create an Article are stopped
+19:55:35.153 [GatlingSystem-akka.actor.default-dispatcher-9] INFO  i.g.core.controller.inject.Injector - Stopping
+19:55:35.156 [GatlingSystem-akka.actor.default-dispatcher-6] INFO  i.gatling.core.controller.Controller - Injector has stopped, initiating graceful stop
+19:55:35.292 [GatlingSystem-akka.actor.default-dispatcher-9] INFO  akka.actor.CoordinatedShutdown - Running CoordinatedShutdown with reason [ActorSystemTerminateReason]
+19:55:35.449 [main] INFO  i.gatling.charts.stats.LogFileReader - Collected List(C:\Users\alica\OneDrive\Masaüstü\javaProjects\karate_ekim2022\target\gatling\cdarticlesimulation-20230506165524883\simulation.log) from cdarticlesimulation-20230506165524883
+19:55:35.499 [main] INFO  i.gatling.charts.stats.LogFileReader - First pass
+19:55:35.526 [main] INFO  i.gatling.charts.stats.LogFileReader - First pass done: read 13 lines
+19:55:35.567 [main] INFO  i.gatling.charts.stats.LogFileReader - Second pass
+19:55:35.686 [main] INFO  i.gatling.charts.stats.LogFileReader - Second pass: read 13 lines
